@@ -1,0 +1,19 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: "reactive-gateway"
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        http://localhost:7777/eureka
