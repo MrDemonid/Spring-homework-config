@@ -1,0 +1,13 @@
+server:
+  port: 7777
+
+spring:
+  application:
+    name: "eureka-server"
+
+eureka:
+  client:
+    register-with-eureka: false   # чтобы не регистрировал сам себя
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:7777/eureka
