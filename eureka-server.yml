@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 7777
 spring:
   application:
     name: "eureka-server"
@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: false   # чтобы не регистрировал сам себя
     fetch-registry: false
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://127.0.0.1:7777/eureka
