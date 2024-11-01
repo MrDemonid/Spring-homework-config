@@ -11,9 +11,3 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: false
-
-eureka:
-  client:
-    service-url:
-      defaultZone:
-        http://localhost:7777/eureka
